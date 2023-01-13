@@ -31,6 +31,9 @@ int main() {
       printf("%d\n", c);
     } else {
       printf("%d ('%c')\n", c, c);
+      if(c == 'a') {
+        printf("left");
+      }
     }
   }
   
